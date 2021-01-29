@@ -10,3 +10,5 @@ The dataset contains 4851 every day killings by the US police from 2015-01-02 ti
 To train our model, we use 90% of the data (258 obs) and left out 10% (29) for the test data set. 
 ### Modelling
 After exploring the dataset, checking the ACF, PACF, detrending, several ARIMA models were tested on the train dataset and the model with the smallest aic was choosen. To check how well our model was doing, we calculated mean square error by using the final model to predict the the test observations. 
+## Results
+### Data Exploration
