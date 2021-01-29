@@ -26,5 +26,5 @@ Based on ACF and PACF values, we ran several ARMA models with AR order from 0 - 
 The standardized residuals seems to fluctuate around the zero line with with possible outliers. QQ plot shows residuals lying on the straight line with some deviations at the ends. ACF plot shows pattern of a white noise. 
 ### Model Predictions
 To evaluate the model, we predicted the test observations and compared with the actual observations. 
-<img  src='./Pics/fig6.PNG' alt="drawing" height = 300 width="500"/>
+<img  src='./Pics/fig6.png' alt="drawing" height = 300 width="500"/>
 
