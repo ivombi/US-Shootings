@@ -9,7 +9,8 @@ We aimed at applying time series anlysis techniques in order to forecast the num
 The dataset contains 4,851 every day killings by the US police from 2015-01-02 till 2020-06-15. It caputure information such as the name, manner of death, race, armed etc [source](https://www.kaggle.com/ahsen1330/us-police-shootings).  <br>
 For our analysis we aggregated the data into weekly killings (287). To train our model, we use 90% of the data (258 obs) and left out 10% (29) for the test data set. 
 ### Modelling
-Several ARMA models were tested on the train dataset and the model with the smallest aic was choosen. To check how well our model was doing, we calculated mean square error by using the final model to predict the the test observations. 
+Several ARMA models were tested on the train dataset and the model with the smallest aic was choosen. To check how well our model was doing, we calculated mean square error by using the final model to predict the the test observations. <br>
+All implementation can be seen in the [shooting_ts](https://github.com/ivombi/US-Shootings/blob/main/shooting_ts.ipynb) notebook
 ## Results
 ### Data Exploration
 Looking at the various exploratory plots as seen below and also based on the values of ACF and PACF, we could see a slight downward trend detected in the time series plot. Also the values of ACF and PACF were not trailling off quicky at early lags. No form of seasonality was found and the data looks normally distributed. 
