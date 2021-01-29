@@ -22,6 +22,6 @@ The train dataset was detrended which led to better results as we see in the ACF
 
 ### Model Results
 Based on ACF and PACF values, we ran several ARMA models with AR order from 0 - 4 and MA order 0 - 2 on the detrended data and ARMA (3,0,1) with aic 1524.3 was found to best fit our data. The model diagnostics as seen below looks good.   
-<img  src='./Pics/fig4.PNG' alt="drawing" height = 200 width="400"/>
+<img  src='./Pics/fig4.PNG' alt="drawing" height = 300 width="500"/>
 
 
