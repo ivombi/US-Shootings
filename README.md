@@ -27,4 +27,6 @@ The standardized residuals seems to fluctuate around the zero line with with pos
 ### Model Predictions
 To evaluate the model, we predicted the test observations and compared with the actual observations. 
 <img  src='./Pics/fig6.png' alt="drawing" height = 300 width="500"/>
-
+Our model seems not be doing  well as the predicted values in green do not correspond or match with observed values in orange. Also our MSE is quite high (25.96). We tried other models but seems not to get better results
+### Conclusion
+The ARMA(3,1,1) model on the train data does not seems to be good model to predict the number of deaths per week by US police in the USA. Other time series model can be exploited for better results. 
