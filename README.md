@@ -6,3 +6,7 @@ On January 27th 2021, the Washington Post reported 984 people were shot and kill
 We aimed at applying time series anlysis techniques in order to forecast the number of deaths in the nearest future given the current and past deaths of US citizens by the police department in the USA.
 ## Methodology
 ### About the Data
+The dataset contains 4851 every day killings by the US police from 2015-01-02 till 2020-06-15. It caputure information such as the name, manner of death, raace, armed etc. For our analysis we aggregated the data into weekly killings (287). <br>
+To train our model, we use 90% of the data (258 obs) and left out 10% (29) for the test data set. 
+### Modelling
+After exploring the dataset, checking the ACF, PACF, detrending, several ARIMA models were tested on the train dataset and the model with the smallest aic was choosen. To check how well our model was doing, we calculated mean square error by using the final model to predict the the test observations. 
