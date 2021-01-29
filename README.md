@@ -15,3 +15,4 @@ After exploring the dataset, checking the ACF, PACF, detrending, several ARIMA m
 Looking at the various exploratory plots as seen below and also based on the values of ACF and PACF, we could see a slide downward trend detected in the time series plot. Also the values of ACF and PACF were not trailling off quicky at early lags. No form of seasonality was found and the data looks normally distributed. 
 
 <img  src='./Pics/fig1.png' alt="drawing" height = 200 width="400"/>
+![alt-text-1]('./Pics/fig1.png' "title-1")
