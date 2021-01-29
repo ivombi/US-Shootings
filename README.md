@@ -12,3 +12,5 @@ To train our model, we use 90% of the data (258 obs) and left out 10% (29) for t
 After exploring the dataset, checking the ACF, PACF, detrending, several ARIMA models were tested on the train dataset and the model with the smallest aic was choosen. To check how well our model was doing, we calculated mean square error by using the final model to predict the the test observations. 
 ## Results
 ### Data Exploration
+Looking at the various exploratory plots as seen below and also based on the values of ACF and PACF, we could see a slide downward trend detected in the time series plot. Also the values of ACF and PACF were not trailling off quicky at early lags. No form of seasonality was found and the data looks normally distributed. 
+[Time Series plot]('Pics/fig1.png')
